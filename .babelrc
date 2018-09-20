@@ -1,0 +1,21 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": [
+          "last 2 versions",
+          "Firefox ESR",
+          "> 1%",
+          "ie >= 9",
+          "iOS >= 8",
+          "Android >= 4"
+        ]
+      }
+    }], "react", "stage-1"
+  ],
+  "plugins": [
+    "transform-runtime", "transform-decorators-legacy"
+  ],
+  "comments": false,
+  "compact": false
+}
